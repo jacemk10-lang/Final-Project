@@ -1,0 +1,291 @@
+@import url("../fonts/Orbitron.txt");
+
+@font-face {
+    font-family: Orbitron;
+    src: url(../fonts/static/Orbitron-Regular.ttf);
+}
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    font-family: "Orbitron";
+    color: white;
+}
+
+h2 {
+    font-size: 26px;
+    font-family: "Orbitron";
+    color: black;
+}
+
+h3,
+h4,
+nav a {
+    font-family: "Orbitron";
+    color: black;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background: black;
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+    background: black;
+    color: white;
+    height: 40px;
+    width: 100%;
+}
+
+#wrapper {
+    display: block;
+    background-color: #ABABAB;
+    width: 1000px;
+    height: auto;
+}
+
+nav {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 10px;
+    width: 100%;
+    max-width: 1000px;
+    height: 250px;
+    background: black;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+nav a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    color: black;
+    text-transform: uppercase;
+    text-align: center;
+    transition: transform 0.4s ease;
+}
+
+.green-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background: #00941e;
+    border-radius: 18%;
+    transition: transform 0.4s ease, background 0.4s ease;
+}
+
+.green-nav:hover {
+    transform: rotateY(180deg);
+    background: #ff0000;
+}
+
+.green-nav:hover a {
+    transform: rotateY(-180deg);
+}
+
+.blue-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background: #3d6eff;
+    border-radius: 18%;
+    transition: transform 0.4s ease, background 0.4s ease;
+}
+
+.blue-nav:hover {
+    transform: rotateY(180deg);
+    background: #ffcc00;
+}
+
+.blue-nav:hover a {
+    transform: rotateY(-180deg);
+}
+
+.orange-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #FF5900;
+    width: 100%;
+    height: 100%;
+    border-radius: 18%;
+    transition: transform 0.4s ease, background 0.4s ease;
+}
+
+.orange-nav:hover {
+    transform: rotateY(180deg);
+    background: #3d6eff;
+}
+
+.red-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #ff0000;
+    width: 100%;
+    height: 100%;
+    border-radius: 18%;
+    transition: transform 0.4s ease, background 0.4s ease;
+}
+
+.red-nav:hover {
+    transform: rotateY(180deg);
+    background: #00941e;
+}
+
+footer {
+    display: grid;
+    align-items: center;
+    margin-top: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    grid-template-columns: repeat(12, 1fr);
+    background: black;
+    gap: 10px;
+    width: 100%;
+    height: 90px;
+}
+
+footer a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    color: black;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.bignav {
+    display: grid;
+    margin: auto;
+    margin-top: 20px;
+    padding: 10px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    width: 600px;
+    height: 600px;
+    gap: 10px;
+    background: black;
+    border-radius: 5%;
+}
+
+.red {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #ff0000;
+    width: 100%;
+    height: 100%;
+    border-radius: 18%;
+}
+
+.green {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #00941e;
+    width: 100%;
+    height: 100%;
+    border-radius: 18%;
+}
+
+.orange {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #FF5900;
+    width: 100%;
+    height: 100%;
+    border-radius: 18%;
+}
+
+.blue {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #3d6eff;
+    width: 100%;
+    height: 100%;
+    border-radius: 18%;
+}
+
+.yellow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #ffcc00;
+    width: 100%;
+    height: 100%;
+    border-radius: 18%;
+}
+
+.white {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    width: 100%;
+    height: 100%;
+    border-radius: 18%;
+}
+
+#history {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+
+#erno_the_goat img {
+    width: 500px;
+    position: sticky;
+    top: 20px;
+    display: block;
+    border: 7px #3d6eff solid;
+    box-shadow:
+        0 0 0 2px black,
+        0 0 0 9px #00941e, /* +7 because theyre right on top of each other if both 7px */
+        0 0 0 10px black;         
+    border-radius: 10%;
+}
+
+#my_story {
+    flex: 1;
+    background: white;
+    padding: 20px;
+    border: 3px solid black;
+    border-radius: 5%;
+}
+
+#fun_facts {
+    margin: auto;
+    margin-top: 30px;
+    display: flex;
+    background: orange;
+    width: 200px;
+    height: 2000px;
+}
