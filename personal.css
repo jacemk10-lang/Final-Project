@@ -282,10 +282,57 @@ footer a {
 }
 
 #fun_facts {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(6, 1fr);
+    gap: 10px;
     margin: auto;
     margin-top: 30px;
-    display: flex;
-    background: orange;
-    width: 200px;
-    height: 2000px;
+    padding: 25px;
+    border-radius: 5%;
+    background: black;
+    width: 90%;
+    height: 600px;
+}
+
+.red_fact {
+    background: #ff0000;
+    margin: auto;
+    height: 100%;
+    width: 100%;
+}
+
+.orange_fact {
+    background: #FF5900;
+    margin: auto;
+    height: 100%;
+    width: 100%;
+}
+
+.yellow_fact {
+    background: #ffcc00;
+    margin: auto;
+    height: 100%;
+    width: 100%;
+}
+
+.green_fact {
+    background: #00941e;
+    margin: auto;
+    height: 100%;
+    width: 100%;
+}
+
+.blue_fact {
+    background: #3d6eff;
+    margin: auto;
+    height: 100%;
+    width: 100%;
+}
+
+.white_fact {
+    background: white;
+    margin: auto;
+    height: 100%;
+    width: 100%;
 }
