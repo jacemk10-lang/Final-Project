@@ -1,8 +1,8 @@
-@import url("../fonts/Orbitron.txt");
+@import url("Orbitron-Regular.ttf");
 
 @font-face {
     font-family: Orbitron;
-    src: url(../fonts/static/Orbitron-Regular.ttf);
+    src: url(Orbitron-Regular.ttf);
 }
 
 * {
